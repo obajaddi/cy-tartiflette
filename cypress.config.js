@@ -7,6 +7,7 @@ module.exports = defineConfig({
 		},
 		// -- GLOBAL OPTIONS -- //
 		specPattern: 'cypress/e2e/**/*.{js,jsx,ts}',
+		testIsolation: true,
 		//baseUrl: '',
 		includeShadowDom: true,
 		screenshotOnRunFailure: true,
@@ -16,6 +17,7 @@ module.exports = defineConfig({
 		},
 		defaultCommandTimeout: 10 * 1000,
 		pageLoadTimeout: 30 * 1000,
+		excludeSpecPattern: ['cypress/e2e/cypress-examples'],
 		// -- VIDEO -- //
 		video: false,
 		videoCompression: 32,

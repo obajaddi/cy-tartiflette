@@ -1,0 +1,25 @@
+{
+  "name": "cy-tartiflette",
+  "version": "1.0.0",
+  "description": "training project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obajaddi/cy-tartiflette.git"
+  },
+  "author": "othmane bajaddi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obajaddi/cy-tartiflette/issues"
+  },
+  "homepage": "https://github.com/obajaddi/cy-tartiflette#readme",
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "eslint": "^8.54.0",
+    "eslint-plugin-cypress": "^2.15.1",
+    "prettier": "^3.1.0"
+  }
+}
